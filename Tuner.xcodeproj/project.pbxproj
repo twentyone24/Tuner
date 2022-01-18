@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		67D796EE279723F700E3ACAF /* TunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D796ED279723F700E3ACAF /* TunerApp.swift */; };
-		67D796F0279723F700E3ACAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D796EF279723F700E3ACAF /* ContentView.swift */; };
 		67D796F2279723F900E3ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D796F1279723F900E3ACAF /* Assets.xcassets */; };
 		67D796F5279723F900E3ACAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D796F4279723F900E3ACAF /* Preview Assets.xcassets */; };
 		67D796FF279723F900E3ACAF /* TunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D796FE279723F900E3ACAF /* TunerTests.swift */; };
 		67D79709279723F900E3ACAF /* TunerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79708279723F900E3ACAF /* TunerUITests.swift */; };
 		67D7970B279723F900E3ACAF /* TunerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7970A279723F900E3ACAF /* TunerUITestsLaunchTests.swift */; };
+		67D79719279724DC00E3ACAF /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 67D79718279724DC00E3ACAF /* SnapshotTesting */; };
+		67D7971D2797250200E3ACAF /* CMicrophonePitchDetector in Resources */ = {isa = PBXBuildFile; fileRef = 67D7971B2797250100E3ACAF /* CMicrophonePitchDetector */; };
+		67D7971E2797250200E3ACAF /* MicrophonePitchDetector in Resources */ = {isa = PBXBuildFile; fileRef = 67D7971C2797250200E3ACAF /* MicrophonePitchDetector */; };
+		67D797272797253300E3ACAF /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797252797253300E3ACAF /* Alignment.swift */; };
+		67D797282797253300E3ACAF /* ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797262797253300E3ACAF /* ColorAnimation.swift */; };
+		67D7972D2797253E00E3ACAF /* TunerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797292797253E00E3ACAF /* TunerData.swift */; };
+		67D7972E2797253E00E3ACAF /* ScaleNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7972A2797253E00E3ACAF /* ScaleNote.swift */; };
+		67D7972F2797253E00E3ACAF /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7972B2797253E00E3ACAF /* Frequency.swift */; };
+		67D797302797253E00E3ACAF /* ModifierPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7972C2797253E00E3ACAF /* ModifierPreference.swift */; };
+		67D797382797255A00E3ACAF /* CurrentNoteMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797312797255A00E3ACAF /* CurrentNoteMarker.swift */; };
+		67D797392797255A00E3ACAF /* MatchedNoteFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797322797255A00E3ACAF /* MatchedNoteFrequency.swift */; };
+		67D7973A2797255A00E3ACAF /* MatchedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797332797255A00E3ACAF /* MatchedNoteView.swift */; };
+		67D7973B2797255A00E3ACAF /* NoteDistanceMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797342797255A00E3ACAF /* NoteDistanceMarkers.swift */; };
+		67D7973C2797255A00E3ACAF /* TranspositionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797352797255A00E3ACAF /* TranspositionMenu.swift */; };
+		67D7973D2797255A00E3ACAF /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797362797255A00E3ACAF /* TunerView.swift */; };
+		67D7973E2797255A00E3ACAF /* MainNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D797372797255A00E3ACAF /* MainNoteView.swift */; };
+		67D79745279725A800E3ACAF /* TranspositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79742279725A700E3ACAF /* TranspositionTests.swift */; };
+		67D79746279725A800E3ACAF /* TunerViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79743279725A700E3ACAF /* TunerViewSnapshotTests.swift */; };
+		67D79747279725A800E3ACAF /* ClosestNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79744279725A800E3ACAF /* ClosestNoteTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,6 @@
 /* Begin PBXFileReference section */
 		67D796EA279723F700E3ACAF /* Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D796ED279723F700E3ACAF /* TunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerApp.swift; sourceTree = "<group>"; };
-		67D796EF279723F700E3ACAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67D796F1279723F900E3ACAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67D796F4279723F900E3ACAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67D796FA279723F900E3ACAF /* TunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,24 @@
 		67D79704279723F900E3ACAF /* TunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D79708279723F900E3ACAF /* TunerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerUITests.swift; sourceTree = "<group>"; };
 		67D7970A279723F900E3ACAF /* TunerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67D7971B2797250100E3ACAF /* CMicrophonePitchDetector */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CMicrophonePitchDetector; sourceTree = "<group>"; };
+		67D7971C2797250200E3ACAF /* MicrophonePitchDetector */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MicrophonePitchDetector; sourceTree = "<group>"; };
+		67D797252797253300E3ACAF /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		67D797262797253300E3ACAF /* ColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAnimation.swift; sourceTree = "<group>"; };
+		67D797292797253E00E3ACAF /* TunerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerData.swift; sourceTree = "<group>"; };
+		67D7972A2797253E00E3ACAF /* ScaleNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleNote.swift; sourceTree = "<group>"; };
+		67D7972B2797253E00E3ACAF /* Frequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		67D7972C2797253E00E3ACAF /* ModifierPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierPreference.swift; sourceTree = "<group>"; };
+		67D797312797255A00E3ACAF /* CurrentNoteMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentNoteMarker.swift; sourceTree = "<group>"; };
+		67D797322797255A00E3ACAF /* MatchedNoteFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedNoteFrequency.swift; sourceTree = "<group>"; };
+		67D797332797255A00E3ACAF /* MatchedNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedNoteView.swift; sourceTree = "<group>"; };
+		67D797342797255A00E3ACAF /* NoteDistanceMarkers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDistanceMarkers.swift; sourceTree = "<group>"; };
+		67D797352797255A00E3ACAF /* TranspositionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranspositionMenu.swift; sourceTree = "<group>"; };
+		67D797362797255A00E3ACAF /* TunerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+		67D797372797255A00E3ACAF /* MainNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNoteView.swift; sourceTree = "<group>"; };
+		67D79742279725A700E3ACAF /* TranspositionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranspositionTests.swift; sourceTree = "<group>"; };
+		67D79743279725A700E3ACAF /* TunerViewSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerViewSnapshotTests.swift; sourceTree = "<group>"; };
+		67D79744279725A800E3ACAF /* ClosestNoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosestNoteTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D79719279724DC00E3ACAF /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				67D796ED279723F700E3ACAF /* TunerApp.swift */,
-				67D796EF279723F700E3ACAF /* ContentView.swift */,
+				67D7971A279724ED00E3ACAF /* Core Services */,
+				67D7973F2797256D00E3ACAF /* Helpers */,
+				67D797402797258200E3ACAF /* Models */,
+				67D797412797258C00E3ACAF /* Views */,
 				67D796F1279723F900E3ACAF /* Assets.xcassets */,
 				67D796F3279723F900E3ACAF /* Preview Content */,
 			);
@@ -114,6 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				67D796FE279723F900E3ACAF /* TunerTests.swift */,
+				67D79744279725A800E3ACAF /* ClosestNoteTests.swift */,
+				67D79742279725A700E3ACAF /* TranspositionTests.swift */,
+				67D79743279725A700E3ACAF /* TunerViewSnapshotTests.swift */,
 			);
 			path = TunerTests;
 			sourceTree = "<group>";
@@ -125,6 +167,49 @@
 				67D7970A279723F900E3ACAF /* TunerUITestsLaunchTests.swift */,
 			);
 			path = TunerUITests;
+			sourceTree = "<group>";
+		};
+		67D7971A279724ED00E3ACAF /* Core Services */ = {
+			isa = PBXGroup;
+			children = (
+				67D7971B2797250100E3ACAF /* CMicrophonePitchDetector */,
+				67D7971C2797250200E3ACAF /* MicrophonePitchDetector */,
+			);
+			path = "Core Services";
+			sourceTree = "<group>";
+		};
+		67D7973F2797256D00E3ACAF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				67D797252797253300E3ACAF /* Alignment.swift */,
+				67D797262797253300E3ACAF /* ColorAnimation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		67D797402797258200E3ACAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67D7972B2797253E00E3ACAF /* Frequency.swift */,
+				67D7972C2797253E00E3ACAF /* ModifierPreference.swift */,
+				67D7972A2797253E00E3ACAF /* ScaleNote.swift */,
+				67D797292797253E00E3ACAF /* TunerData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67D797412797258C00E3ACAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67D797312797255A00E3ACAF /* CurrentNoteMarker.swift */,
+				67D797372797255A00E3ACAF /* MainNoteView.swift */,
+				67D797322797255A00E3ACAF /* MatchedNoteFrequency.swift */,
+				67D797332797255A00E3ACAF /* MatchedNoteView.swift */,
+				67D797342797255A00E3ACAF /* NoteDistanceMarkers.swift */,
+				67D797352797255A00E3ACAF /* TranspositionMenu.swift */,
+				67D797362797255A00E3ACAF /* TunerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +228,9 @@
 			dependencies = (
 			);
 			name = Tuner;
+			packageProductDependencies = (
+				67D79718279724DC00E3ACAF /* SnapshotTesting */,
+			);
 			productName = Tuner;
 			productReference = 67D796EA279723F700E3ACAF /* Tuner.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 67D796E1279723F600E3ACAF;
+			packageReferences = (
+				67D79717279724DC00E3ACAF /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 67D796EB279723F700E3ACAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D7971D2797250200E3ACAF /* CMicrophonePitchDetector in Resources */,
+				67D7971E2797250200E3ACAF /* MicrophonePitchDetector in Resources */,
 				67D796F5279723F900E3ACAF /* Preview Assets.xcassets in Resources */,
 				67D796F2279723F900E3ACAF /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D796F0279723F700E3ACAF /* ContentView.swift in Sources */,
+				67D7973C2797255A00E3ACAF /* TranspositionMenu.swift in Sources */,
+				67D7972E2797253E00E3ACAF /* ScaleNote.swift in Sources */,
+				67D797302797253E00E3ACAF /* ModifierPreference.swift in Sources */,
+				67D7973B2797255A00E3ACAF /* NoteDistanceMarkers.swift in Sources */,
+				67D797392797255A00E3ACAF /* MatchedNoteFrequency.swift in Sources */,
+				67D7972D2797253E00E3ACAF /* TunerData.swift in Sources */,
+				67D797272797253300E3ACAF /* Alignment.swift in Sources */,
+				67D7973E2797255A00E3ACAF /* MainNoteView.swift in Sources */,
+				67D7973A2797255A00E3ACAF /* MatchedNoteView.swift in Sources */,
+				67D797282797253300E3ACAF /* ColorAnimation.swift in Sources */,
+				67D797382797255A00E3ACAF /* CurrentNoteMarker.swift in Sources */,
+				67D7973D2797255A00E3ACAF /* TunerView.swift in Sources */,
 				67D796EE279723F700E3ACAF /* TunerApp.swift in Sources */,
+				67D7972F2797253E00E3ACAF /* Frequency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +371,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D79746279725A800E3ACAF /* TunerViewSnapshotTests.swift in Sources */,
 				67D796FF279723F900E3ACAF /* TunerTests.swift in Sources */,
+				67D79745279725A800E3ACAF /* TranspositionTests.swift in Sources */,
+				67D79747279725A800E3ACAF /* ClosestNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +713,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67D79717279724DC00E3ACAF /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67D79718279724DC00E3ACAF /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D79717279724DC00E3ACAF /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67D796E2279723F600E3ACAF /* Project object */;
 }
